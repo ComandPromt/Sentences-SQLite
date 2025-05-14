@@ -12,4 +12,4 @@ FROM sqlite_master
 WHERE type = 'table' AND name NOT LIKE 'sqlite_%';
 
 PRAGMA foreign_keys = ON;
-~~~sql
+~~~
